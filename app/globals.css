@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --luxury-gold: #D4AF37;
+}
+
+body {
+  background-color: #080808;
+  color: #F5F5F7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01", "ss02", "cv01", "cv11";
+}
+
+/* Luxury Smooth Scrollbar Optimization */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--luxury-gold);
+  border-radius: 10px;
+}
+
+/* Premium Text Selection Highlighting */
+::selection {
+  background-color: var(--luxury-gold);
+  color: #080808;
+}
